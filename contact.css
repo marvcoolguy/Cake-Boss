@@ -1,0 +1,230 @@
+:root {
+	--primary-color: #047aed;
+	--secondary-color: #1c3fa8;
+	--dark-color: #002240;
+	--light-color: #f4f4f4;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-size: 16px;
+	font-family: sans-serif;
+	background-color: pink;
+	color: black;
+}
+
+header {
+	background-color: pink;
+	color: white;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 20px 5px;
+}
+
+header h3 {
+	color: rgb(146, 0, 24);
+}
+
+ul {
+	display: flex;
+}
+
+ul li {
+	list-style: none;
+	font-size: 13px;
+	margin-left: 8px;
+}
+
+ul li a {
+	color: white;
+	text-decoration: none;
+}
+
+ul li a:hover {
+	color: #f00;
+	border-bottom: 3px solid #fff;
+}
+
+.bg-image-1 {
+	background-image: url("img/Serious-buisiness.jpg");
+	height: 200px;
+	background-color: #ccc;
+	/* width: 100%; */
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.bg-image-1 h1 {
+	color: #fff;
+}
+
+.form-control {
+	background-color: pink;
+	padding: 20px 0;
+	color: #fff;
+}
+
+form {
+	padding: 0 20px;
+}
+
+input,
+textarea {
+	padding: 10px 20px;
+	margin-bottom: 20px;
+	width: 100%;
+	border: none;
+}
+
+.btn {
+	background-color: limegreen;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	width: 100%;
+	color: white;
+	font-size: 18px;
+}
+
+.btn:hover {
+	transform: scale(0.98);
+}
+
+/* Footer */
+.footer .socials a {
+	margin: 0 10px;
+}
+
+.footer .socials a:hover {
+	color: #fff;
+	border: none;
+}
+
+.footer a:hover {
+	color: #f00;
+	border-bottom: 3px solid #fff;
+}
+
+@media screen and (min-width: 1201px) {
+	.bg-image-1 {
+		background-image: url("img/Serious-buisiness.jpg");
+		height: 300px;
+		background-color: #7c7a7a;
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: center center;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+
+	input {
+		width: 50%;
+	}
+
+	header h3 {
+		color: rgb(146, 0, 24);
+		margin-left: 50px;
+	}
+
+	ul li {
+		list-style: none;
+		font-size: 19px;
+		margin-left: 18px;
+	}
+
+	.flex {
+		width: 100%;
+		display: flex;
+		justify-content: space-between;
+	}
+
+	label {
+		margin-left: 70px;
+	}
+
+	input,
+	textarea {
+		padding: 20px 40px;
+		margin-bottom: 20px;
+		width: 900px;
+	}
+
+	.btn {
+		background-color: limegreen;
+		border: none;
+		border-radius: 5px;
+		display: inline-block;
+		padding: 10px 30px;
+		cursor: pointer;
+		width: 100px;
+		color: white;
+		position: relative;
+		left: 1000px;
+	}
+}
+
+@media screen and (min-width: 600px) and (max-width: 1200px) {
+	.bg-image-1 {
+		background-image: url("img/Serious-buisiness.jpg");
+		height: 200px;
+		background-color: #ccc;
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: center center;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+
+	.form-control {
+		height: 100%;
+	}
+
+	input {
+		width: 50%;
+	}
+
+	ul li {
+		list-style: none;
+		font-size: 16px;
+		margin-left: 18px;
+	}
+
+	.flex {
+		width: 100%;
+		display: flex;
+		justify-content: space-between;
+	}
+
+	input,
+	textarea {
+		padding: 15px 40px;
+		margin-bottom: 20px;
+		width: 500px;
+	}
+
+	.btn {
+		background-color: limegreen;
+		border: none;
+		border-radius: 5px;
+		display: inline-block;
+		padding: 10px 30px;
+		width: 100px;
+		cursor: pointer;
+		color: white;
+		position: relative;
+		right: 0;
+	}
+}

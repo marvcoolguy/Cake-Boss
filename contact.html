@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="contact.css" />
+		<link rel="stylesheet" href="utilities.css" />
+		<title>Cake Boss</title>
+	</head>
+	<body>
+		<div class="container">
+			<header>
+				<h3>Marvel Delight</h3>
+
+				<nav>
+					<ul>
+						<li><a href="cake.html">Home</a></li>
+						<li><a href="#">About</a></li>
+						<li><a href="#">Product</a></li>
+						<li><a href="contact.html">Contact us</a></li>
+					</ul>
+				</nav>
+			</header>
+			<section class="bg-image-1">
+				<h1>Contact Us</h1>
+			</section>
+			<section class="form-control">
+				<form>
+					<div class="flex">
+						<label for="text">Name:</label>
+						<div>
+							<input type="text" name="name" placeholder="John" required />
+						</div>
+					</div>
+
+					<div class="flex">
+						<label for="tel">Phone Number:</label>
+						<div>
+							<input type="tel" name="tel" placeholder="08092314576" required />
+						</div>
+					</div>
+
+					<!-- <div class="flex">
+						<label for="email">Email:</label>
+						<div>
+							<input
+								type="email"
+								name="email"
+								placeholder="john@gmail.com"
+								required
+							/>
+						</div>
+					</div> -->
+
+					<div class="flex">
+						<label for="message">Send us a message</label>
+						<textarea
+							name="message"
+							id=""
+							cols="30"
+							rows="15"
+							placeholder="Write us a message"
+						></textarea>
+					</div>
+					<a href="mailto:someone@example.com"
+						><input type="submit" value="send" class="btn"
+					/></a>
+				</form>
+			</section>
+		</div>
+	</body>
+</html>
