@@ -77,7 +77,7 @@ section.product h3 {
 
 .card-image-1 {
 	height: 160px;
-	background: rgb(94, 94, 94) url("/img/sweet-cupcake.jpg") no-repeat center
+	background: rgb(94, 94, 94) url("./img/sweet-cupcake.jpg") no-repeat center
 		center;
 	background-size: cover;
 }
