@@ -1,3 +1,5 @@
+See the code preview: https://marvcoolguy.github.io/Cake-Boss/contact.html
+
 ## Welcome to GitHub Pages
 
 You can use the [editor on GitHub](https://github.com/marvcoolguy/Cake-Boss/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
@@ -12,7 +14,9 @@ Markdown is a lightweight and easy-to-use syntax for styling your writing. It in
 Syntax highlighted code block
 
 # Header 1
+
 ## Header 2
+
 ### Header 3
 
 - Bulleted
