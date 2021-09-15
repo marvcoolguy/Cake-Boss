@@ -1,6 +1,6 @@
 #Welcome to my cake website
 
-_##I have used many css tricks for this website and they include
+##I have used many css tricks for this website and they include
 
 * Grid
 * Flex
