@@ -1,0 +1,45 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-size: 16px;
+	font-family: sans-serif;
+	background-color: #f3f3f4;
+	color: black;
+}
+
+header {
+	background-color: pink;
+	color: white;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 20px 5px;
+}
+
+header h3 {
+	color: rgb(146, 0, 24);
+}
+
+ul {
+	display: flex;
+}
+
+ul li {
+	list-style: none;
+	font-size: 12px;
+	margin-left: 8px;
+}
+
+ul li a {
+	color: white;
+	text-decoration: none;
+}
+
+ul li a:hover {
+	color: #f00;
+	border-bottom: 3px solid #fff;
+}

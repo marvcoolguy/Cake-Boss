@@ -90,9 +90,9 @@ section.product h3 {
 }
 
 .card {
-	border: 1px solid gray;
 	width: 18rem;
 	margin: 30px auto;
+	border-radius: 11px;
 }
 
 .card-text {
