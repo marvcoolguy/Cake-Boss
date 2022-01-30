@@ -30,7 +30,7 @@ ul {
 
 ul li {
 	list-style: none;
-	font-size: 12px;
+	font-size: 13px;
 	margin-left: 8px;
 }
 
@@ -43,6 +43,7 @@ ul li a:hover {
 	color: #f00;
 	border-bottom: 3px solid #fff;
 }
+
 
 /* showcase section */
 .showcase {
@@ -74,7 +75,7 @@ ul li a:hover {
 	transform: scale(0.98);
 }
 
-.showcase-button button:last-child {
+.showcase-button .btn {
 	background-color: pink;
 	color: black;
 }
@@ -87,12 +88,14 @@ section.product h3 {
 
 .card:hover {
 	transform: translateY(-15px);
+	transition-duration: 0.1ms;
 }
 
 .card {
 	width: 18rem;
 	margin: 30px auto;
 	border-radius: 11px;
+	border: 3px black;
 }
 
 .card-text {
