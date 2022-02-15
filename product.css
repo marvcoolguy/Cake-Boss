@@ -55,9 +55,7 @@ ul li a:hover {
 	align-items: center;
 
 	background: rgba(0, 0, 0, 0.541) url("./img/Our-products.jpg") no-repeat
-		center center;
-	background-size: cover;
-	background-blend-mode: multiply;
+		center center cover multiply;
 }
 
 section.product h3 {
