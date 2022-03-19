@@ -14,7 +14,7 @@
 body {
 	font-size: 16px;
 	font-family: sans-serif;
-	background-color: pink;
+	background-color: #f3f3f4;
 	color: black;
 }
 
@@ -31,19 +31,73 @@ header h3 {
 	color: rgb(146, 0, 24);
 }
 
+nav {
+	display: flex;
+	background-color: pink;
+}
+
+@media screen and (max-width: 600px) {
+	nav {
+		display: none;
+		width: 60%;
+		position: absolute;
+		border: 2px solid rgb(194, 55, 78);
+		top: 60px;
+		left: 0;
+		padding: 60px 0;
+	}
+}
+
+
+
 ul {
 	display: flex;
 }
 
+@media screen and (max-width: 600px) {
+	ul {
+		flex-direction: column;
+		text-align: center;
+	}
+}
+
+
+
 ul li {
 	list-style: none;
-	font-size: 13px;
+	font-size: 14px;
 	margin-left: 8px;
+}
+
+@media screen and (max-width: 600px) {
+	ul li {
+		font-size: 20px;
+		margin-bottom: 15px;
+	}
 }
 
 ul li a {
 	color: white;
 	text-decoration: none;
+}
+
+ul li a:hover {
+	color: #f00;
+	border-bottom: 3px solid #fff;
+}
+
+.mobile-toggle {
+	display: none;
+}
+
+.close-icon {
+	display: none;
+}
+
+@media screen and (max-width: 600px) {
+	.mobile-toggle {
+		display: flex;
+	}
 }
 
 ul li a:hover {
